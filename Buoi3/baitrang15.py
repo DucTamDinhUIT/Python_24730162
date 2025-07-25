@@ -6,6 +6,8 @@
 #• Còn lại giá 10k/km
 #• Nếu đi hơn 100k thì giảm thêm 8% cho tổng tiền
 
+
+
 def calculate_taxi_fare(km):
     if km <= 1:
         dongia = 20
@@ -20,3 +22,8 @@ def calculate_taxi_fare(km):
         dongia *= 0.92
 
     return dongia
+
+
+km = float(input("Nhập số km đã đi: "))
+print(f"Tiền taxi phải trả là: {calculate_taxi_fare(km)}k")
+
