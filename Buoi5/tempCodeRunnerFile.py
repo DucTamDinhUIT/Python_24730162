@@ -63,5 +63,5 @@ def main():
     print("Khoang cach max-min:", kc)
     print("So sanh:", so_sanh(tb, giua))
 
-# if __name__ == "__main__":
-main()
+if __name__ == "__main__":
+    main()
